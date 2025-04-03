@@ -1,0 +1,111 @@
+
+body {
+    background-color: #f5d7d7;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 55px;
+    color: #b30000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.pageBackground {
+    background-image: url("/images/backgroundBlurredKitchen.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    padding: 15px;
+    align-items: center;
+}
+
+.saleSection {
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+}
+
+.image-section img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.description {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.saleText {
+    background: red;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.seeMore {
+    font-size: 14px;
+    font-weight: bold;
+    color: #020202;
+    text-decoration: underline;
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+}
+
+.btn {
+    background: linear-gradient(45deg, #ff4d4d, #cc0000);
+    border-radius: 12px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #cc0000, #ff4d4d);
+}
+
+.intro-image {
+    max-width: 50%;
+    height: auto;
+    margin-top: -70px; 
+    margin-bottom: 0px; 
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
